@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-dim": "#131313", "on-error": "#690005", "tertiary": "#e9c16d", "surface": "#131313", "secondary-fixed-dim": "#e2c468", "on-tertiary": "#402d00", "error-container": "#93000a", "surface-variant": "#353534", "on-primary-fixed-variant": "#594400", "primary-container": "#c8a64d", "on-background": "#e5e2e1", "surface-container-highest": "#353534", "primary-fixed": "#ffdf93", "secondary-fixed": "#ffe084", "on-primary-container": "#4f3c00", "surface-container-high": "#2a2a2a", "surface-container": "#201f1f", "surface-container-low": "#1c1b1b", "on-error-container": "#ffdad6", "tertiary-fixed-dim": "#e9c16d", "on-tertiary-container": "#513b00", "inverse-primary": "#765b01", "surface-bright": "#393939", "primary-fixed-dim": "#e7c266", "inverse-surface": "#e5e2e1", "secondary": "#e2c468", "surface-tint": "#e7c266", "on-primary-fixed": "#241a00", "primary": "#e7c266", "on-tertiary-fixed-variant": "#5c4300", "outline-variant": "#4d4637", "outline": "#99907e", "on-primary": "#3e2e00", "tertiary-fixed": "#ffdf9f", "background": "#131313", "on-secondary": "#3c2f00", "on-secondary-fixed-variant": "#574500", "tertiary-container": "#caa554", "secondary-container": "#6d5700", "on-surface": "#e5e2e1", "on-secondary-container": "#edcf72", "error": "#ffb4ab", "on-surface-variant": "#d0c5b2", "on-tertiary-fixed": "#261a00", "inverse-on-surface": "#313030", "on-secondary-fixed": "#231b00", "surface-container-lowest": "#0e0e0e" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "space-xl": "2rem", "gutter": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "margin": "1.5rem", "space-md": "1rem" }, fontFamily: { "label-sm": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "number-display": ["Plus Jakarta Sans"] }, fontSize: { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-hero-mobile": ["34px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-sm": ["17px", { "lineHeight": "22px", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-hero": ["40px", { "lineHeight": "44px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "number-display": ["28px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" }] } } } }</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.65)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="TapLink Brand Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XvfRiy9zRgP35PcXm6gdxsS_iOCoSPagwqwMzZDh-kn981R6qCrnmQ_3YKgb1HVmq65kVn9J-Y52PNjaY3gjuUOGPR8bZnI8mwuqQfnA75kjLCJ4DgMe22zg1y3edVLmm2hQcLbYgvXvOUHYET3HqKKV5bh-FnZNKI_s3rIw8Z5lSpnkrIB_hR6-lj79DAJK-p4zWZMpUDB8DIq_siK_UEcb0Kt0QAUe5gNqpdhGC1IyWZx667wgz_uWo"/><div class="flex flex-col"><span class="font-label-sm text-label-sm tracking-wider uppercase text-outline">TapLink Private</span><span class="font-headline-sm text-headline-sm text-on-surface">07 — Profile &amp; Security</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span></button><a class="w-11 h-11 flex items-center justify-center rounded-full focus:outline-none focus:ring-1 focus:ring-primary" data-path="07-profile-security" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqaDtDG_0_-cpLnIJNkcLMgE-yhvX2N1h6xB-y665p1Wq3_6iXNKy2b-stESCyCvrOeFNZOvwFa4WZiFibyaPiAe_lDJo31g2pXXkmQxGq9E1p9cnGJWfD1aJd1VVTO_Iy88DyzjXXFZbMqtSGoYzxLTL2eKTfD1R8GuQjgT5clss0_u5CbXmeGBT72qXBA_DZlgHGUZyjQULgyVqifJCHWcMzVxyij1BVzc-gchYUDa03aHp1NgNGVA"/></a></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full px-margin pb-space-xl space-y-space-md">
+<!-- TOP PROFILE CARD (Obsidian & Champagne Craft) -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container p-space-md shadow-md">
+<!-- Ambient micro decorative glow overlay inside card -->
+<div class="absolute -right-12 -top-12 w-44 h-44 rounded-full bg-primary/5 blur-2xl pointer-events-none"></div>
+<div class="flex items-start gap-space-md relative z-10">
+<!-- Avatar with Champagne Accent Ring -->
+<div class="relative flex-shrink-0">
+<div class="w-16 h-16 rounded-full p-0.5 bg-gradient-to-tr from-primary to-primary-container shadow-sm">
+<img alt="Elena Voronina" class="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqaDtDG_0_-cpLnIJNkcLMgE-yhvX2N1h6xB-y665p1Wq3_6iXNKy2b-stESCyCvrOeFNZOvwFa4WZiFibyaPiAe_lDJo31g2pXXkmQxGq9E1p9cnGJWfD1aJd1VVTO_Iy88DyzjXXFZbMqtSGoYzxLTL2eKTfD1R8GuQjgT5clss0_u5CbXmeGBT72qXBA_DZlgHGUZyjQULgyVqifJCHWcMzVxyij1BVzc-gchYUDa03aHp1NgNGVA"/>
+</div>
+<div class="absolute bottom-0 right-0 w-4 h-4 rounded-full bg-surface-container flex items-center justify-center">
+<span class="w-2.5 h-2.5 rounded-full bg-[#16845B]"></span>
+</div>
+</div>
+<!-- Identity Details -->
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs mb-0.5">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Elena Voronina</h2>
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<!-- Account Tier Pill -->
+<div class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container-high text-primary my-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">shield</span>
+<span class="font-label-sm text-label-sm tracking-wide">Obsidian Private Tier II</span>
+</div>
+<!-- Membership Metadata -->
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">
+          Client #TL-883921 <span class="mx-1 opacity-40">•</span> Verified since 2021
+        </p>
+</div>
+</div>
+<!-- Security Posture Mini Meter -->
+<div class="mt-space-md pt-space-sm bg-surface-container-high/40 -mx-space-md -mb-space-md px-space-md py-3 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">verified_user</span>
+<span class="font-label-sm text-label-sm text-on-surface">Maximum Vault Hardening Active</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary px-2 py-0.5 rounded bg-primary/10">100% Secure</span>
+</div>
+</div>
+<!-- SECTION 1: SECURITY & BIOMETRICS -->
+<div class="flex flex-col space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Security &amp; Biometrics</span>
+<span class="font-label-sm text-label-sm text-primary">Biometric Guard</span>
+</div>
+<div class="rounded-xl bg-surface-container overflow-hidden">
+<!-- Biometric Toggle Row -->
+<div class="flex items-center justify-between min-h-[64px] px-space-md py-2.5">
+<div class="flex items-center gap-space-md min-w-0 pr-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[22px]">fingerprint</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-semibold truncate">Biometric Face ID / Fingerprint</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Required for payments over $100</span>
+</div>
+</div>
+<!-- Active Toggle Switch -->
+<button aria-checked="true" class="relative inline-flex h-7 w-12 flex-shrink-0 cursor-pointer rounded-full bg-primary-container transition-colors duration-200 ease-in-out focus:outline-none" id="bioToggle" onclick="const s = this.getAttribute('aria-checked') === 'true'; this.setAttribute('aria-checked', !s); this.classList.toggle('bg-primary-container'); this.classList.toggle('bg-surface-variant'); this.querySelector('span').classList.toggle('translate-x-5'); this.querySelector('span').classList.toggle('translate-x-1');" role="switch">
+<span class="pointer-events-none inline-block h-5 w-5 transform rounded-full bg-on-primary shadow-sm ring-0 transition duration-200 ease-in-out translate-x-5 mt-1"></span>
+</button>
+</div>
+<div class="h-px bg-surface-container-high mx-space-md"></div>
+<!-- Passcode & Hardware Key -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">pin</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Passcode &amp; Hardware Key</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">6-digit Passcode set</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</div>
+<div class="h-px bg-surface-container-high mx-space-md"></div>
+<!-- Two-Factor Authentication -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">key</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Two-Factor Authentication</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Hardware Key + SMS</span>
+</div>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm">Strict</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="h-px bg-surface-container-high mx-space-md"></div>
+<!-- Auto-Lock Timer -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Auto-Lock Timer</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Immediately upon exit</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant flex-shrink-0">
+<span class="font-label-sm text-label-sm text-outline">0s delay</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 2: DEVICE MANAGEMENT & SESSIONS -->
+<div class="flex flex-col space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Trusted Devices (2 Active)</span>
+<button class="font-label-sm text-label-sm text-primary hover:underline">Manage All</button>
+</div>
+<div class="rounded-xl bg-surface-container overflow-hidden space-y-0">
+<!-- Device 1: iPhone (Current) -->
+<div class="flex items-center justify-between min-h-[64px] px-space-md py-3">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="relative w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-primary mt-0.5">
+<span class="material-symbols-outlined text-[22px]">phone_iphone</span>
+<span class="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-[#16845B] ring-2 ring-surface-container"></span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-body-md text-body-md text-on-surface font-semibold truncate">iPhone 15 Pro Max</span>
+<span class="px-1.5 py-0.5 rounded text-[10px] uppercase font-bold tracking-wider bg-surface-container-high text-primary">Current</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">London, UK • Active now</span>
+</div>
+</div>
+<div class="flex items-center flex-shrink-0 ml-2">
+<span class="material-symbols-outlined text-[18px] text-[#16845B]" title="Secured with Secure Enclave">lock</span>
+</div>
+</div>
+<div class="h-px bg-surface-container-high mx-space-md"></div>
+<!-- Device 2: MacBook Pro (Authorized) -->
+<div class="flex items-center justify-between min-h-[64px] px-space-md py-3 transition-opacity duration-300" id="deviceRow2">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant mt-0.5">
+<span class="material-symbols-outlined text-[22px]">laptop_mac</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-semibold truncate">MacBook Pro 16"</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">macOS Sonoma • Last active 2h ago</span>
+</div>
+</div>
+<div class="flex items-center flex-shrink-0 ml-2">
+<button class="px-2.5 py-1.5 rounded-lg bg-surface-container-high text-error font-label-sm text-label-sm active:bg-error-container/30 transition-colors" onclick="const r = document.getElementById('deviceRow2'); r.classList.add('opacity-30', 'pointer-events-none'); this.textContent = 'Revoked';" type="button">
+            Revoke
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 3: PAYMENT & PRIVACY LIMITS -->
+<div class="flex flex-col space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Payment &amp; Privacy Limits</span>
+</div>
+<div class="rounded-xl bg-surface-container overflow-hidden">
+<!-- NFC Tap Confirmation Threshold -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">contactless</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">NFC Tap Confirmation Threshold</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Always require hold / Face ID</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</div>
+<div class="h-px bg-surface-container-high mx-space-md"></div>
+<!-- Data Sharing & Privacy -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">visibility_off</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Data Sharing &amp; Privacy</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Strict Privacy Mode Enabled</span>
+</div>
+</div>
+<div class="flex items-center gap-1 flex-shrink-0">
+<span class="w-2 h-2 rounded-full bg-primary mr-1"></span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 4: SUPPORT & DOCUMENTATION -->
+<div class="flex flex-col space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Private Advisory</span>
+</div>
+<div class="rounded-xl bg-surface-container overflow-hidden">
+<!-- Concierge Support -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Private Concierge Support</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">24/7 Priority Banker connected</span>
+</div>
+</div>
+<div class="flex items-center gap-1 flex-shrink-0">
+<span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm">Active</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="h-px bg-surface-container-high mx-space-md"></div>
+<!-- Legal & Disclosures -->
+<div class="flex items-center justify-between min-h-[56px] px-space-md py-2.5 active:bg-surface-container-high/60 transition-colors cursor-pointer">
+<div class="flex items-center gap-space-md min-w-0 pr-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">gavel</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Legal, Licenses &amp; Disclosures</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Regulatory filings &amp; banking terms</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 5: SIGN OUT ACTION -->
+<div class="pt-space-sm pb-2">
+<button class="w-full h-[52px] rounded-xl bg-surface-container text-error flex items-center justify-center gap-2 active:bg-error-container/20 transition-all font-headline-sm text-headline-sm shadow-sm" onclick="alert('Signing out from Obsidian Private Secure Node...')" type="button">
+<span class="material-symbols-outlined text-[20px]">logout</span>
+<span>Sign Out of TapLink Private</span>
+</button>
+<p class="font-body-sm text-body-sm text-outline text-center mt-3">
+      App Build v4.12.0 (Build 9042) • Encrypted via TLS 1.3
+    </p>
+</div>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-8px_24px_rgba(0,0,0,0.7)]" data-active-classes="text-primary"><div class="flex items-center justify-around h-16 px-gutter"><a class="flex flex-col items-center justify-center w-14 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="01-home-dashboard" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center w-14 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="pay" href="#"><span class="material-symbols-outlined text-[22px]">contactless</span><span class="font-label-sm text-label-sm">Pay</span></a><a class="flex flex-col items-center justify-center w-14 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="05-cards-controls" href="#"><span class="material-symbols-outlined text-[22px]">credit_card</span><span class="font-label-sm text-label-sm">Cards</span></a><a class="flex flex-col items-center justify-center w-14 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="06-insights" href="#"><span class="material-symbols-outlined text-[22px]">monitoring</span><span class="font-label-sm text-label-sm">Insights</span></a><a class="flex flex-col items-center justify-center w-14 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="07-profile-security" href="#"><span class="material-symbols-outlined text-[22px]">account_circle</span><span class="font-label-sm text-label-sm">Profile</span></a></div></nav></body></html>

@@ -1,0 +1,229 @@
+---
+name: Obsidian & Gilt Mobile Banking
+colors:
+  surface: '#131313'
+  surface-dim: '#131313'
+  surface-bright: '#393939'
+  surface-container-lowest: '#0e0e0e'
+  surface-container-low: '#1c1b1b'
+  surface-container: '#201f1f'
+  surface-container-high: '#2a2a2a'
+  surface-container-highest: '#353534'
+  on-surface: '#e5e2e1'
+  on-surface-variant: '#d0c5b2'
+  inverse-surface: '#e5e2e1'
+  inverse-on-surface: '#313030'
+  outline: '#99907e'
+  outline-variant: '#4d4637'
+  surface-tint: '#e7c266'
+  primary: '#e7c266'
+  on-primary: '#3e2e00'
+  primary-container: '#c8a64d'
+  on-primary-container: '#4f3c00'
+  inverse-primary: '#765b01'
+  secondary: '#e2c468'
+  on-secondary: '#3c2f00'
+  secondary-container: '#6d5700'
+  on-secondary-container: '#edcf72'
+  tertiary: '#e9c16d'
+  on-tertiary: '#402d00'
+  tertiary-container: '#caa554'
+  on-tertiary-container: '#513b00'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdf93'
+  primary-fixed-dim: '#e7c266'
+  on-primary-fixed: '#241a00'
+  on-primary-fixed-variant: '#594400'
+  secondary-fixed: '#ffe084'
+  secondary-fixed-dim: '#e2c468'
+  on-secondary-fixed: '#231b00'
+  on-secondary-fixed-variant: '#574500'
+  tertiary-fixed: '#ffdf9f'
+  tertiary-fixed-dim: '#e9c16d'
+  on-tertiary-fixed: '#261a00'
+  on-tertiary-fixed-variant: '#5c4300'
+  background: '#131313'
+  on-background: '#e5e2e1'
+  surface-variant: '#353534'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 34px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 17px
+    fontWeight: '600'
+    lineHeight: 22px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  number-display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+The design system establishes a private wealth mobile banking experience characterized by architectural restraint, disciplined typography, and tangible physical craft. It communicates institutional resilience and understated discretion, deliberately moving away from both hyper-casual neobank playfulness and synthetic, neon-drenched crypto styling.
+
+Drawing from high-end horology and bespoke editorial print, the aesthetic balances modern minimalism with deep, tactile tonal hierarchy. It does not lean on decorative blurs or luminous neon glows; instead, clarity and luxury are achieved through razor-sharp contrast, structural discipline, purposeful micro-interactions, and gold accents calibrated like precision metal inlays against obsidian carbon.
+
+## Colors
+
+The palette operates on a calibrated dark-mode system engineered for OLED screens and extreme visual focus.
+
+- **Canvas & Surfaces:**
+  - Base background: `#151515` (deep obsidian canvas, grounding all views).
+  - Surface cards: `#202020` (primary grouping containers, financial ledgers, statement cards).
+  - Raised surface: `#292929` (modals, bottom sheets, active sheet headers, elevated toggles).
+- **Accents & Precious Metals:**
+  - Champagne Gold (`#C8A64D`): Primary brand color reserved for high-conviction calls to action, active navigation pins, and balance hero metrics.
+  - Light Gold (`#E4C66A`): Selected states, subtle active outlines, and focused touch points.
+  - Deep Gold (`#7A5C10`): Structural containment, secondary badges, and low-priority progress indicators.
+- **Typography & Structural Lines:**
+  - Primary Text: `#FAF9F5` (warm parchment white ensuring readability without harsh optical glare).
+  - Muted Text: `#B8B5AD` (secondary data labels, timestamps, transaction metadata).
+  - Architectural Borders: `#3A3832` (precise hairline boundaries and structural separators).
+- **Functional States:**
+  - Positive / Credit: `#16845B` (calibrated deep emerald for gains, deposits, and settled operations).
+  - Attention / Alert: `#A86400` (burnished amber warning state for holds, overdraft cautions, and pending security verification).
+
+## Typography
+
+The typography uses Plus Jakarta Sans across all display, body, and UI tiers to maintain a crisp geometric structure with subtle humanist warmth.
+
+- **Numeric Rendering:** All financial ledgers, account figures, currency sums, and stock quantities must strictly enforce OpenType tabular figures (`font-variant-numeric: tabular-nums; font-feature-settings: "tnum" on`). This avoids horizontal jitter when balance figures shift or animate.
+- **Hierarchy:**
+  - Balance readouts use `display-hero` or `number-display` with tight tracking to anchor financial authority.
+  - Transaction descriptions utilize `body-lg` or `body-md` set in Warm White (`#FAF9F5`), while associated timestamps and sub-categories are styled in `body-sm` using Muted Text (`#B8B5AD`).
+  - Section headers and uppercase metadata badges employ `label-sm` with expanded tracking (`0.04em`) to establish clear boundaries between functional modules.
+
+## Layout & Spacing
+
+The layout is built for native mobile ergonomics (reference frame: 390x844px), scaling seamlessly between compact hand sizes and large mobile form factors.
+
+- **System Grid & Boundaries:**
+  - Horizontal Screen Margin: Fixed at `24px` (`margin`) to guarantee comfortable separation from device bezels and edge gestures.
+  - Section Stacking: Uniform `16px` (`space-md`) gap between distinct cards and functional blocks.
+  - Column Gutters: `16px` (`gutter`) for side-by-side metric tiles and two-column asset splits.
+- **Touch Target Integrity:** Every interactive tap zone adheres to an absolute minimum dimension of 44x44px, with preferred primary buttons and high-frequency actions scaled to 48px or 52px height.
+- **Adaptation Rules:**
+  - On compact devices (<375px width), balance readouts compress from `display-hero` to `display-hero-mobile`, while outer horizontal margins reduce slightly from 24px to 16px to prevent transaction text clipping.
+  - Tablet/Foldable expanded viewports constrain the main banking column to a centered 480px structural shell, preventing financial line items from stretching uncomfortably wide.
+
+## Elevation & Depth
+
+Visual depth is conveyed through structured tonal layering and precise hairline borders rather than dramatic, soft-focus drop shadows or iridescent halos.
+
+- **The Tonal Staircase:**
+  - Layer 0 (Canvas): Base background `#151515`.
+  - Layer 1 (Cards & Groups): `#202020` card surfaces resting flush over the canvas.
+  - Layer 2 (Raised Sheets & Modals): `#292929` overlays for quick-actions, payment confirmations, and drawer menus.
+- **Structural Separation:** Every card, container, and elevated surface is bounded by a uniform 1px solid border in `#3A3832`. This creates sharp, jewelry-box separation between dark layers in all lighting conditions.
+- **Ambient Floor Shadow:** When elevated surfaces (e.g., sticky action trays, modal sheets) float above standard content, they cast an ultra-deep, directional ambient shadow: `0px 12px 32px rgba(0, 0, 0, 0.65)`. No colored or gold ambient glow is permitted; elevation remains architectural, crisp, and anchored.
+
+## Shapes
+
+The geometric framework balances approachable handling with tailored precision.
+
+- **Container Radius:**
+  - Master cards and statement containers utilize a 16px to 24px radius (`rounded-lg` to `rounded-xl`), creating soft pocketing within the 24px outer viewport margin.
+  - Interactive controls (action buttons, text inputs, segment selectors) adhere strictly to a 12px radius, ensuring quick tactile affordance without turning into soft pills.
+  - Small chips, status indicators, and currency tags employ an 8px radius to keep micro-data crisp and structured.
+
+## Components
+
+### Buttons
+- **Primary Action:** Solid Champagne Gold (`#C8A64D`) fill, `#151515` bold typography. Height: 52px. Corner radius: 12px. Pressed state dims subtly to `#7A5C10` with zero blur or light blooming.
+- **Secondary / Ghost:** `#202020` surface with a 1px `#3A3832` border and `#FAF9F5` typography. On active touch, the border transitions cleanly to `#E4C66A`.
+
+### Cards & Financial Containers
+- Constructed on `#202020` with a 1px `#3A3832` perimeter and 20px padding.
+- Virtual debit/credit cards feature an obsidian finish, faint hairline grain, debossed gold chip insignia, and masked card numbers rendered with strict tabular monospace metrics.
+
+### Input Fields
+- Height: 54px. Base background `#151515` nested within `#202020` surfaces, or `#202020` when set directly against the canvas.
+- 1px border in `#3A3832`. Focus state shifts the border to Light Gold (`#E4C66A`) without ambient shadow rings. Placeholder text in `#B8B5AD`.
+
+### Lists & Transaction Rows
+- Arranged with 56px minimum row heights. Left-aligned vendor glyph or avatar set in an elevated `#292929` tile (40x40px, 10px radius).
+- Transaction title in `#FAF9F5` (`body-md`), category/timestamp below in `#B8B5AD` (`body-sm`).
+- Trailing amount aligned right: debits in `#FAF9F5`, deposits and rewards rendered in Emerald (`#16845B`). Divided by hairlines (`#3A3832`) indented past the leading icon.
+
+### Chips & Filters
+- Compact 32px height, 8px radius. Inactive: `#202020` background, 1px `#3A3832` border, `#B8B5AD` text.
+- Selected: `#292929` background, 1px `#C8A64D` border, `#E4C66A` label.
+
+### Checkboxes & Radios
+- 20x20px dimension. Unchecked: 1.5px border `#3A3832`, transparent interior.
+- Checked: `#C8A64D` fill with `#151515` checkmark or center pip. Touch targets padded out to 44x44px.
+
+### Keypad & Biometric Trays
+- Bottom-docked payment authentication surfaces using `#292929` surface sheets.
+- Dial-pad buttons feature 64x64px circular touch areas with light tactile haptic response on trigger, subtle tap feedback changing background to `#3A3832`, and numeric readouts in `#FAF9F5`.

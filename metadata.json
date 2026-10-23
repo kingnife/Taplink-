@@ -1,0 +1,8 @@
+{
+  "name": "TapLink Private — Obsidian & Gilt Mobile Banking",
+  "description": "Luxury private-client mobile banking application with obsidian card controls, interactive NFC tap payments, spending insights, and biometrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
